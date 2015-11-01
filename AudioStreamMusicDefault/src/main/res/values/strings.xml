@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Audio Stream Music Default</string>
+    <string name="xposed_description">"Always accidentally switching your ringer volume while you just want to lower the volume before you start e.g. youtube? This app sets the music stream as the default audio stream to change by the volume buttons. E.g. on home screen or in apps which don't explicitly set a stream.
+Tested on Node 4 running Lollipop (Wanam Lite V3.1). Should run an all Lollipop, Kitkat and Jellybean Roms."</string>
+
+    <string name="require_android_Version">Requires %1$s or higher</string>
+
+    <!-- Reboot dialog -->
+    <string name="ok_understand">OK, I understand</string>
+    <string name="never_show_again">Never show this message again</string>
+    <string name="reboot_message">After you made your changes, a reboot is required in order for the changes to take effect.</string>
+
+    <!-- Other settings -->
+    <string name="pref_other">Other</string>
+    <string name="pref_volume_keys_control_music_title">Volume keys control music</string>
+    <string name="pref_volume_keys_control_music_on">Pressing volume keys shows music volume panel</string>
+    <string name="pref_volume_keys_control_music_off">Pressing volume keys shows ringer volume panel</string>
+
+    <string name="pref_launcher_title">Show launcher icon</string>
+    <string name="pref_launcher_on">Access settings through my launcher</string>
+    <string name="pref_launcher_off">Access settings through Xposed Installer</string>
+
+    <string name="pref_debug_title">Debugging</string>
+    <string name="pref_debug_on">Debug information is shown in the Xposed Log</string>
+    <string name="pref_debug_off">Debug information is not shown in the Xposed Log</string>
+
+    <string name="pref_compatibility_mode_lg_title">Use LG Compatibility mode</string>
+    <string name="pref_compatibility_mode_lg_summary">Compatibility mode for LG devices, only needed on stock KitKat roms</string>
+
+    <!-- About section -->
+    <string name="pref_about">About</string>
+
+    <string name="pref_about_title" translatable="false">Audio Stream Music Default v%1$s</string>
+    <string name="pref_about_summary">Audio Stream Music Default is released under the GPLv3 license.</string>
+
+    <string name="pref_donate_title">Donate</string>
+    <string name="pref_donate_summary">Support me, buy me a beer using PayPal. Donations are highly appreciated.</string>
+
+    <string name="pref_support_title">Support</string>
+    <string name="pref_support_summary">Contact me on fivef2@gmail.com.</string>
+
+</resources>

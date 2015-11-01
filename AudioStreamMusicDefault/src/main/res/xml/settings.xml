@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fivef="http://schemas.android.com/apk/res/de.fivef.audiostreammusicdefault">
+
+    <PreferenceCategory android:title="@string/pref_other"
+        android:key="pref_category_other">
+
+        <CheckBoxPreference
+            android:key="pref_volume_keys_control_music"
+            android:title="@string/pref_volume_keys_control_music_title"
+            android:summaryOff="@string/pref_volume_keys_control_music_off"
+            android:summaryOn="@string/pref_volume_keys_control_music_on"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_launcher"
+            android:title="@string/pref_launcher_title"
+            android:summaryOff="@string/pref_launcher_off"
+            android:summaryOn="@string/pref_launcher_on"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_debug"
+            android:title="@string/pref_debug_title"
+            android:summaryOff="@string/pref_debug_off"
+            android:summaryOn="@string/pref_debug_on"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_compatibility_mode_lg"
+            android:title="@string/pref_compatibility_mode_lg_title"
+            android:summary="@string/pref_compatibility_mode_lg_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_about">
+        <Preference
+            android:key="pref_about"
+            android:title="@string/app_name"
+            android:summary="@string/pref_about_summary" />
+
+        <Preference
+            android:key="pref_donate"
+            android:title="@string/pref_donate_title"
+            android:summary="@string/pref_donate_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=LVUNJMLFHJKJN"/>
+        </Preference>
+
+        <Preference
+            android:key="pref_support"
+            android:title="@string/pref_support_title"
+            android:summary="@string/pref_support_summary">
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
