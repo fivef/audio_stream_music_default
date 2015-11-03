@@ -11,7 +11,7 @@
             android:title="@string/pref_volume_keys_control_music_title"
             android:summaryOff="@string/pref_volume_keys_control_music_off"
             android:summaryOn="@string/pref_volume_keys_control_music_on"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pref_launcher"
@@ -54,6 +54,9 @@
             android:key="pref_support"
             android:title="@string/pref_support_title"
             android:summary="@string/pref_support_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://forum.xda-developers.com/xposed/modules/mod-volume-keys-change-music-volume-t3238473"/>
         </Preference>
 
     </PreferenceCategory>

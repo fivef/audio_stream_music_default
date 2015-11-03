@@ -67,7 +67,7 @@ public class DefaultStream implements IXposedHookZygoteInit {
 
 
         // Whether the volume keys control the music stream or the ringer volume
-        boolean volumeKeysControlMusic = prefs.getBoolean("pref_volume_keys_control_music", false);
+        boolean volumeKeysControlMusic = prefs.getBoolean("pref_volume_keys_control_music", true);
         if (debugging) XposedBridge.log(LOG_TAG + "Volume keys control " + (volumeKeysControlMusic ? "music" : "ringer"));
 
         if (volumeKeysControlMusic) {

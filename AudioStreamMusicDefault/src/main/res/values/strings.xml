@@ -37,6 +37,6 @@ Tested on Node 4 running Lollipop (Wanam Lite V3.1). Should run an all Lollipop,
     <string name="pref_donate_summary">Support me, buy me a beer using PayPal. Donations are highly appreciated.</string>
 
     <string name="pref_support_title">Support</string>
-    <string name="pref_support_summary">Contact me on fivef2@gmail.com.</string>
+    <string name="pref_support_summary">Check out the xda thread.</string>
 
 </resources>
